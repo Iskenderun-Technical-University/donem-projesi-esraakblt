@@ -19,7 +19,7 @@ public class CollectDiamond : MonoBehaviour
 
     private void Start()
     {
-          PlayerAnim = Player.GetComponentInChildren<Animator>();
+        PlayerAnim = Player.GetComponentInChildren<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
